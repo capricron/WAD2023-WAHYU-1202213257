@@ -1,0 +1,7 @@
+Anda adalah seorang mahasiswa yang ingin memulai karir sebagai pengembang web
+dan memutuskan untuk membuat portofolio diri online menggunakan HTML dan bootstrap.
+Anda ingin menciptakan tata letak menarik, menambahkan pengalaman kerja/organisasi,
+menambahkan proyek-proyek dengan galeri gambar, serta menambahkan Footer/Informasi
+kontak anda. Selain itu, Anda ingin mencantumkan keterampilan teknis yang anda miliki.
+Dalam proses pembuatan portofolio, Anda belajar tentang tata letak, tautan, dan etika
+penggunaan konten, dengan harapan memulai karir pengembang web yang sukses.
