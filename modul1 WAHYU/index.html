@@ -11,6 +11,9 @@
             overflow-x: hidden;
             /* fit 100p */
         }
+        .pagination ul span {
+          margin: auto;
+        }
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,18 +44,23 @@
             </ul>
           </div>
         </div>
-    </nav>
+    </nav>  
     <div id="banner" class="" style="background-color: rgb(50, 54, 54); height: 500px;">
         <div class="row text-light" style="padding-top: 100px;">
             <div class="col-7" style="padding-left: 200px; padding-top: 100px;">
                 <h1>Hi, Im Wahyudi Khoeris Salimi</h1>
                 <h3>Im a Student</h3>
-                <button type="button" class="btn btn-primary">
-                    <a href="#skill">
-                        My Skill
-                    </a>
-                </button>
-                <button type="button" class="btn btn-primary">My Porto</button>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    All Menu 
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#about">About Me</a></li>
+                    <li><a class="dropdown-item" href="#skill">My Skill</a></li>
+                    <li><a class="dropdown-item" href="#porto">My Porto</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contact me</a></li>
+                  </ul>
+                </div>
             </div>
             <div class="col-4">
                 <img src="./logo.jpeg" alt="IMG-20211003-120535" border="0" style="width: 300px; height: 300px; border-radius: 50%;">
@@ -159,8 +167,34 @@
             </button>
           </div>
         </div>
+        <nav>
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <span class="page-link" style="color: black;">Previous</span>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <span style="color: black;">1</span>
+              </a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <span class="page-link" style="color: black;">2</span>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" style="color: black;">
+                <span style="color: black;">3</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <span style="color: black;">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
     </div>
-    <div style="height: 600px; background-color: rgb(192, 187, 185);">
+    <div id="contact" style="height: 600px; background-color: rgb(192, 187, 185);">
         <h1 class="text-center pt-2 pb-2" style="font-size: 50px; font-weight: bold;">Contact Me</h1>
         <div class="row">
             <div class="col-6">
