@@ -57,9 +57,10 @@
                 echo"<td>".$car['warna_mobil']."</td>";
                 echo"<td>".$car['tipe_mobil']."</td>";
                 echo"<td>".$car['harga_mobil']."</td>";
+                echo "<script> var text = 'Apakah yakin menghapus data?' </script>";
                 echo"<td>
                     <a href='form_update_mobil.php?id=".$car['id']."'><button type='button' class='btn btn-warning'>Edit</button></a>
-                    <a href='delete.php?id=".$car['id']."'><button type='button' class='btn btn-danger'>Delete</button></a>
+                    <a class='btn btn-danger' href='delete.php?id=".$car['id']."' onclick='return confirm(text)'>Delete</a>
                     </td>";
                 echo"</tr>";
             }
